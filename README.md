@@ -2,11 +2,15 @@
 
 **A high-performance PostgreSQL database system designed for retail operations, featuring automated inventory management and real-time sales analytics.**
 
+![Dashboard Preview](dashboard_preview.jpg)
+
 ---
 
 ## 🚀 Project Overview
 
 This project implements a normalized relational database for a retail business. Unlike a static database, it features **event-driven automation** using PostgreSQL Triggers to manage stock levels in real-time. It also includes a suite of optimized SQL Views to drive Business Intelligence (BI) dashboards.
+
+![ERD Diagram](erd_diagram.jpg)
 
 **Key Features:**
 *   **Automated Inventory Tracking**: Custom PL/pgSQL triggers automatically reduce stock on purchase and restore stock on order cancellation/modification.
